@@ -1,7 +1,14 @@
-import info.gridworld.actor.*;
-import info.gridworld.grid.*;
-import java.util.*;
+import info.gridworld.actor.Actor;
+import info.gridworld.actor.Critter;
+import info.gridworld.actor.Bug;
+import info.gridworld.grid.BoundedGrid;
+import info.gridworld.grid.Location;
 import java.awt.Color;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Stack;
+import java.util.Set;
+import java.util.HashSet;
 
 public class ChessRunner{
     //maybe reading a custom DLLHNode LList and auto the chess
